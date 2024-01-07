@@ -25,4 +25,5 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 #the +ve end of LED must be connected to pin no 37 and -ve end to pin no 39(refer the pin diagram in the repository)
-#create a html page with two buttons 'on' and 'off'
+#create a html page, index.html in a separate folder named 'templates'. The script should have two buttons, 'on' and 'off'
+#refer to index.html for more information
