@@ -12,3 +12,6 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug = True)
+
+#the VCC must be connected to pin no 2, DATA must be connected to pin no 7 and GND to pin no 9
+#no need to create an 'index.html' file, the return will do it on its own
