@@ -1,5 +1,4 @@
 from gsmmodem.modem import GsmModem
-import time
 gsm_port = '/dev/ttyUSB0' 
 gsm_baudrate = 9600 
 
