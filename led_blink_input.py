@@ -15,3 +15,5 @@ while 1 :
     else:
         print('dengey')
     inp = int(input())
+
+#the +ve end of LED must be connected to pin no 37 and -ve end to pin no 39(refer the pin diagram in the repository)
