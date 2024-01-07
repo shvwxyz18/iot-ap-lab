@@ -7,3 +7,6 @@ modem = GsmModem(gsm_port, gsm_baudrate)
 modem.connect()
 modem.send_sms(recipient_number, message)
 print(f"SMS sent to {recipient_number}: {message}")
+modem.disconnect()
+
+#connect the gms module to RaspberryPi and run this program
