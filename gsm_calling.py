@@ -9,6 +9,6 @@ modem.dial(phone_number)
 print(f"Calling {phone_number}...")
 time.sleep(20)
 modem.hangup()
-print("debgey annadu")
+print("dengey annadu")
 modem.disconnect()
 
