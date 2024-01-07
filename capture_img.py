@@ -7,6 +7,6 @@ if result:
 	cv2.waitKey(0) 
 	cv2.destroyWindow("test") 
 else: 
-	print("No image detected. Please! try again") 
+	print("dengey") 
 
 #you can run this even on your system, no need of RaspberryPi
