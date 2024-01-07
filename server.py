@@ -19,6 +19,6 @@ while True:
     c.close()
     break
     
-#connection of sensor is similar to temperature program
+#the VCC must be connected to pin no 2, DATA must be connected to pin no 7 and GND to pin no 9
 #the extension of this is the client.py
 #run this program and client.py on different terminals, you will be able to see the temp on the terminal of client.py
