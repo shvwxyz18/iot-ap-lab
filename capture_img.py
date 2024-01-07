@@ -8,3 +8,5 @@ if result:
 	cv2.destroyWindow("test") 
 else: 
 	print("No image detected. Please! try again") 
+
+#you can run this even on your system, no need of RaspberryPi
