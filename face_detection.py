@@ -1,7 +1,5 @@
 import cv2
-
 face_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-
 video_capture = cv2.VideoCapture(0)
 
 def detect_bounding_box(vid):
@@ -12,11 +10,11 @@ def detect_bounding_box(vid):
     return faces
 
 while True:
-    result, video_frame = video_capture.read()  # read frames from the video
+    result, video_frame = video_capture.read() 
     if not result:
-        break  # terminate the loop if the frame is not read successfully
-    faces = detect_bounding_box(video_frame)  # apply the function we created to the video frame
-    cv2.imshow("My Face Detection Project", video_frame)  # display the processed frame in a window named "My Face Detection Project"
+        break  
+    faces = detect_bounding_box(video_frame) 
+    cv2.imshow("My Face Detection Project", video_frame) 
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
     a = len(faces)
