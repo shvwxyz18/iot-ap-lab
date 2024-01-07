@@ -10,3 +10,4 @@ print(f"SMS sent to {recipient_number}: {message}")
 modem.disconnect()
 
 #connect the gms module to RaspberryPi and run this program
+#the connections are, TXD to pin no 8, RXD to pin no 10, GND to pin no 6 and VCC to pin no 4(refer to gsm modem.png for reference)
