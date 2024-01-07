@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>LED Control</h1>
+    <form action="/" method="post">
+        <button type="submit" name="led" value="on">Turn On</button>
+        <button type="submit" name="led" value="off">Turn Off</button>
+    </form>
+    <p>{{a}}</p>
+</body>
+</html>
